@@ -2,7 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <!-- React bootstrap dependencies links -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- link for font-awesome  -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" /> -->
+    <!-- <link rel="icon" href="" type="image/x-icon" /> -->
+    
+    <!-- this for Feather icon -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- link from template Pidocx -->
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="./assets/media/image/favicon.png"/>
+
+     <!-- Plugin styles -->
+     <link rel="stylesheet" href="./vendors/bundle.css" type="text/css">
+     
+     
+     <!-- Slick -->
+     <link rel="stylesheet" href="./vendors/slick/slick.css" type="text/css">
+     <link rel="stylesheet" href="./vendors/slick/slick-theme.css" type="text/css">
+ 
+     <!-- Daterangepicker -->
+     <link rel="stylesheet" href="./vendors/datepicker/daterangepicker.css" type="text/css">
+ 
+     <!-- DataTable -->
+     <link rel="stylesheet" href="./vendors/dataTable/datatables.min.css" type="text/css">
+ 
+     <!-- App styles -->
+     <link rel="stylesheet" href="./assets/css/app.min.css" type="text/css">
+     <!-- End link for template Pidocx -->
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,7 +62,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>React Pidocx</title>
+
+    <!-- begin::preloader-->
+      <!-- <div class="preloader">
+        <div class="preloader-icon"></div>
+      </div> -->
+    <!-- end::preloader -->
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +85,73 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- Bootstrap  from Evolutic app project-->
+    <!-- <script 
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+      crossorigin="anonymous">
+    </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous">
+  </script>
+  <script 
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous">
+  </script> -->
+
+  <!-- npm react bootstrap dependencies -->
+    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+
+    <script
+    src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+    crossorigin></script>
+
+    <script
+    src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+    crossorigin></script>
+
+    <script>var Alert = ReactBootstrap.Alert;</script>
+   <!-- From Dashbord Pidocx Template  -->
+   <!-- Plugin scripts -->
+      <script type="text/babel" src="./vendors/bundle.js"></script>
+
+            <!-- Slick -->
+            <script type="text/babel" src="./vendors/slick/slick.min.js"></script> 
+
+             <!-- Chartjs -->
+            <script type="text/babel" src="./vendors/charts/chartjs/chart.min.js"></script> 
+
+            <!-- Apex chart -->
+            <script type="text/babel" src="../../../../apexcharts.com/samples/assets/irregular-data-series.js"></script> 
+             <script type="text/babel" src="./vendors/charts/apex/apexcharts.min.js"></script> 
+
+            <!-- Daterangepicker -->
+            <script type="text/babel" src="./vendors/datepicker/daterangepicker.js"></script>
+
+            <!-- DataTable -->
+            <script type="text/babel" src="./vendors/dataTable/datatables.min.js"></script>
+
+            <!-- Dashboard scripts -->
+      <script type="text/babel" src="./assets/js/examples/dashboard.js"></script> 
+
+      <!-- From Login Component -->
+      <!-- Plugin scripts -->
+      <!-- <script src="../../vendors/bundle.js"></script> -->
+
+      <!-- App scripts -->
+      <script type="text/babel" src="./assets/js/app.min.js"></script>
+      <!-- Enable jquery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+      
+      <!-- for feather-icons -->
+      <script>
+        feather.replace()
+      </script>
+
   </body>
 </html>
